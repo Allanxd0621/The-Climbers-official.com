@@ -1,0 +1,105 @@
+header {
+  background-color:  #C8E6C9;
+  color: rgb(2, 149, 58);
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+
+.header-content {
+  margin-left: 10rem;
+  display: flex;
+  align-items: center;     /* Align logo and text vertically */
+  justify-content: center; /* Center both horizontally */
+  gap: 1rem;               /* Space between logo and text */
+  flex-wrap: wrap;         /* Allows wrapping on small screens */
+  text-align: center;
+}
+
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; /* space between logo and text */
+}
+
+header img {
+  width: 40px;       /* resize image */
+  height: 40px;      /* keep square shape */
+  object-fit: contain;
+}
+
+
+
+
+  .tab-content {
+  margin-bottom: 0.5rem;
+  display: none;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tab-content.active {
+  display: block;
+}
+
+nav ul {
+  border-radius: 12px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #228B22;
+}
+
+.tab-button {
+  border-radius: 5px;
+  background: none;
+  border: none;
+  color: #cddd55;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: border 0.3s;
+}
+
+.tab-button:hover,
+.tab-button.active {
+  border-bottom: 3px solid #cddd55;
+}
+
+footer{
+    background-color: #228B22;
+    color: #ffffff;
+    font-size: xx-small;
+    text-align: center;
+    border-radius: 12px;
+}
+body{
+    background-color: rgb(227, 241, 228);
+}
+.gear{
+    text-align: justify;
+}
+
+.brigada{
+    width: 1000px;          /* control how big it appears */
+  height: auto;         /* keeps the correct shape */
+  object-fit: contain;  /* makes sure it doesn't stretch */
+  border-radius: 8px;   /* optional: adds rounded corners */
+  margin-right: 10px; 
+  max-width: 100%;
+  height: auto;
+}
+
+/*THis is for each article design layout*/
+.feature-article{
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius:10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  background-color: #e8e8e8;
+}
